@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .paid {
+    @apply flex flex-col;
+  }
+
+  .inProgress {
+    @apply flex flex-col animate-pulse;
+  }
+
+  .delivery {
+    @apply flex flex-col opacity-30;
+  }
+}
